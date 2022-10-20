@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class GamePiece : MonoBehaviour
 {
+    int piece_type;
+    bool color;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +17,15 @@ public class GamePiece : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void calculate_moves()
+    {
+
+    }
+
+    private void set_position()
+    {
+
     }
 }
